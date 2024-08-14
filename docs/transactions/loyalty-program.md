@@ -1,13 +1,12 @@
 # Loyalty Program
 
-Loyalty Program is used to reward customers with points for their purchases, which can then be redeemed on future purchases.
+Loyalty Program is used to reward customers with points for their purchases, which can then be redeemed on their future purchases.
 
 ## Enabling Loyalty Program
 
-To enable Loyalty Program you will have to first check the Enable Loyalty Program. To
-navigate: `Setup > Settings > General Tab`.
+To enable Loyalty Program, you will have to first check the Enable Loyalty Program in the General Settings.
 
-![Enable Inventory](./images//enable-loyalty-program.png)
+![Enable Loyalty Program](./images//enable-loyalty-program.png)
 
 
 Once that is done you will have to restart Frappe Books to see the Loyalty Program in the sidebar.
@@ -23,9 +22,9 @@ To create a Loyalty Program first navigate to the Loyalty Program page
 
 `Sales > Loyalty Program`
 
-Then click on the blue `+` button to open the Loyalty Program form.
+Then click on the `+` button to open the Loyalty Program form.
 
-![Sales Invoice Form](./images/loyalty-program.png)
+![Loyalty Program](./images/loyalty-program.png)
 
 
 1. Enter a unique name for the Loyalty Program.
@@ -45,29 +44,29 @@ Then click on the blue `+` button to open the Loyalty Program form.
 
 Set a Loyalty Program in the Customer to assign a Loyalty Program.
 
-![Sales Invoice Form](./images/choose-loyalty-program.png)
+![Loyalty Program](./images/choose-loyalty-program.png)
 
 
 Loyalty points earned can be viewed in the Customer.
 
-![Sales Invoice Form](./images/loyalty-points.png)
+![Loyalty Points](./images/loyalty-points.png)
 
 
 ## Loyalty Program Functionality
 
 ### Earning Points 
-1. Assign this Loyalty Program to a Customer.
+1. Assign Loyalty Program to a Customer.
 2. Create a new Sales Invoice for the Customer to whom you have assigned Loyalty Program.
-3. For this example, an invoice is created with a grand total of 3,000 INR. According to the Loyalty Program, if a customer spends a minimum of 2,000 INR, they are eligible to earn loyalty points. For every 300 INR spent, the customer will receive 1 loyalty point. Therefore, with a total spend of 3,000 INR, the customer earns 10 loyalty points.
-4. Upon submission of the invoice, a Loyalty Point Entry will be created for this invoice. This acts as a log to give an overview of which Customer earned how many points against which Sales Invoice.
+3. For this example, an Sales Invoice is created with a grand total of 3,000 INR. According to the Loyalty Program, if a customer spends a minimum of 2,000 INR, they are eligible to earn loyalty points. For every 300 INR spent, the customer will receive 1 loyalty point. Therefore, with a total spend of 3,000 INR, the customer earns 10 loyalty points.
+4. Upon submission of the Sales Invoice, a Loyalty Point Entry will be created for this Sales Invoice. This acts as a log to give an overview of which Customer earned how many points against which Sales Invoice.
 
-![Sales Invoice Form](./images/loyalty-point-entry.png)
+![Loyalty Point Entry](./images/loyalty-point-entry.png)
 
 ### Redeeming Points 
 
-1. When creating an invoice for a Customer who has loyalty points, go to the Loyalty Point Redemption section and enable the checkbox **Redeem Loyalty Points**.
+1. When creating an Sales Invoice for a Customer who has loyalty points, go to the Loyalty Point Redemption section and enable the checkbox **Redeem Loyalty Points**.
 2. The fields for **Loyalty Points** will become visible under this section. You can fill in the points to redeem.
-3. The total amount of the invoice will be adjusted based on the redeemed points, and you will only need to pay the remaining balance after the points have been applied.
+3. The total amount of the Sales Invoice will be adjusted based on the redeemed points, and you will only need to pay the remaining balance after the points have been applied.
 
 
-![Sales Invoice Form](./images/redeem-loyalty-points.png)
+![Loyalty Points](./images/redeem-loyalty-points.png)
